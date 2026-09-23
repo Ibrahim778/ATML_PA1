@@ -59,25 +59,25 @@
   },
   "shape_texture_bias": {
     "resnet50": {
-      "n_shape": 85,
-      "n_texture": 53,
-      "n_other": 71,
-      "shape_bias_pct": 61.594202898550726,
-      "coverage_pct": 66.02870813397129
+      "n_shape": 81,
+      "n_texture": 74,
+      "n_other": 85,
+      "shape_bias_pct": 52.25806451612903,
+      "coverage_pct": 64.58333333333333
     },
     "vit_b_16": {
-      "n_shape": 136,
-      "n_texture": 19,
-      "n_other": 54,
-      "shape_bias_pct": 87.74193548387096,
-      "coverage_pct": 74.16267942583733
+      "n_shape": 131,
+      "n_texture": 33,
+      "n_other": 76,
+      "shape_bias_pct": 79.8780487804878,
+      "coverage_pct": 68.33333333333333
     },
     "clip_vit_b_32": {
-      "n_shape": 123,
-      "n_texture": 19,
-      "n_other": 67,
-      "shape_bias_pct": 86.61971830985915,
-      "coverage_pct": 67.94258373205741
+      "n_shape": 128,
+      "n_texture": 31,
+      "n_other": 81,
+      "shape_bias_pct": 80.50314465408805,
+      "coverage_pct": 66.25
     }
   },
   "translation_curve": {
@@ -168,8 +168,8 @@
     }
   },
   "cue_conflict_counts": {
-    "accepted": 209,
-    "rejected": 335
+    "accepted": 240,
+    "rejected": 0
   },
   "eval_subset_imbalance": {}
 }

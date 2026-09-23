@@ -50,6 +50,15 @@ def _stage(n: int, total: int, title: str):
     long unattended runs show what's currently happening."""
     print(f"\n{'=' * 60}\n[Stage {n}/{total}] {title}\n{'=' * 60}", flush=True)
 
+def load_or_extract_features(backbone, idx, root, split, cache_path, desc):
+    if os.path.isfile(cache_path):
+        cached = torch.load(cache_path, weights_only=False)
+        if cached.get("indices") == list(idx):
+            tqdm.write(f"  found cached features at {cache_path}, loading instead of extracting")
+            return cached["features"], cached["labels"]
+        tqdm.write(f"  cache at {cache_path} has mismatched indices, re-extracting")
+    return extract_and_cache_features(
+        backbone, idx, root, split, cache_path, device=DEVICE, desc=desc)
 
 def load_pil_images(split, indices, image_size=IMAGE_SIZE):
     ds = STL10(root=ROOT, split=split, download=True)
@@ -78,7 +87,7 @@ def main():
     clean_images, labels = load_pil_images("test", eval_idx)
     print(f"Eval subset ready ({len(clean_images)} images).")
 
-    # ---------------- 2. Backbones + heads ----------------
+        # ---------------- 2. Backbones + heads ----------------
     _stage(2, TOTAL_STAGES, "Backbone feature caching + linear head training")
     print("Loading pretrained backbones (ResNet-50, ViT-B/16, CLIP ViT-B/32) ...")
     backbones = load_all_backbones(device=DEVICE)
@@ -91,11 +100,11 @@ def main():
         train_path = os.path.join(cache_dir, f"{name}_train.pt")
         val_path = os.path.join(cache_dir, f"{name}_val.pt")
 
-        train_feats, train_labels = extract_and_cache_features(
-            backbone, train_idx, ROOT, "train", train_path, device=DEVICE,
+        train_feats, train_labels = load_or_extract_features(
+            backbone, train_idx, ROOT, "train", train_path,
             desc=f"[{name}] extracting train features")
-        val_feats, val_labels = extract_and_cache_features(
-            backbone, val_idx, ROOT, "train", val_path, device=DEVICE,
+        val_feats, val_labels = load_or_extract_features(
+            backbone, val_idx, ROOT, "train", val_path,
             desc=f"[{name}] extracting val features")
 
         tqdm.write(f"[{name}] training linear head ...")

@@ -25,7 +25,7 @@ def extract_and_cache_features(backbone, indices, root, split, out_path,
         batch_imgs.clear()
         batch_lbls.clear()
 
-    resize = lambda pil_img: pil_img.resize((image_size, image_size), Image.BICUBIC)
+    resize = lambda pil_img: pil_img.resize((image_size, image_size), Image.BILINEAR)
 
     bar_desc = desc or f"Extracting {backbone.name} features ({split})"
     for idx in tqdm(indices, desc=bar_desc, unit="img"):

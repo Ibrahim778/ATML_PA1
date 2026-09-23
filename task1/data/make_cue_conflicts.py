@@ -38,15 +38,7 @@ from task1.models.adain_net import load_adain_model
 SEED = 6304
 IMAGE_SIZE = 224
 
-CONTENT_LOSS_MAX = 0.4
-STYLE_LOSS_MAX = 0.14
 ALPHA = 1
-
-def is_accepted(content_loss: float, style_loss: float) -> bool:
-    """Visual/structural rejection rule, fixed BEFORE model evaluation.
-    Does not use any of the three backbones' predictions."""
-    return content_loss <= CONTENT_LOSS_MAX and style_loss <= STYLE_LOSS_MAX
-
 
 def load_class_images(root: str, split: str = "train"):
     ds = STL10(root=root, split=split, download=True)
