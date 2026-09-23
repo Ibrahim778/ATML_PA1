@@ -1,0 +1,175 @@
+{
+  "clean_baseline": {
+    "resnet50": {
+      "accuracy": 0.972,
+      "macro_f1": 0.9720103238996813,
+      "mean_max_conf": 0.9467865623235703
+    },
+    "vit_b_16": {
+      "accuracy": 0.97,
+      "macro_f1": 0.9700309264401273,
+      "mean_max_conf": 0.9650551374554635
+    },
+    "clip_vit_b_32": {
+      "accuracy": 0.966,
+      "macro_f1": 0.9658979411429064,
+      "mean_max_conf": 0.2410136658847332
+    }
+  },
+  "clip_zero_shot_baseline": {
+    "accuracy": 0.936,
+    "macro_f1": 0.9355462540236349,
+    "mean_max_conf": 0.9246221264600754
+  },
+  "color_bias": {
+    "grayscale": {
+      "resnet50": {
+        "accuracy": 0.946,
+        "consistency_vs_clean": 0.952,
+        "mean_max_conf": 0.9433900602459907
+      },
+      "vit_b_16": {
+        "accuracy": 0.95,
+        "consistency_vs_clean": 0.978,
+        "mean_max_conf": 0.9545266463160514
+      },
+      "clip_vit_b_32": {
+        "accuracy": 0.938,
+        "consistency_vs_clean": 0.94,
+        "mean_max_conf": 0.22534887526929379
+      }
+    },
+    "hue_rotate_90": {
+      "resnet50": {
+        "accuracy": 0.938,
+        "consistency_vs_clean": 0.954,
+        "mean_max_conf": 0.9273587423563003
+      },
+      "vit_b_16": {
+        "accuracy": 0.934,
+        "consistency_vs_clean": 0.958,
+        "mean_max_conf": 0.9381723409891128
+      },
+      "clip_vit_b_32": {
+        "accuracy": 0.948,
+        "consistency_vs_clean": 0.952,
+        "mean_max_conf": 0.2163127074688673
+      }
+    }
+  },
+  "shape_texture_bias": {
+    "resnet50": {
+      "n_shape": 85,
+      "n_texture": 53,
+      "n_other": 71,
+      "shape_bias_pct": 61.594202898550726,
+      "coverage_pct": 66.02870813397129
+    },
+    "vit_b_16": {
+      "n_shape": 136,
+      "n_texture": 19,
+      "n_other": 54,
+      "shape_bias_pct": 87.74193548387096,
+      "coverage_pct": 74.16267942583733
+    },
+    "clip_vit_b_32": {
+      "n_shape": 123,
+      "n_texture": 19,
+      "n_other": 67,
+      "shape_bias_pct": 86.61971830985915,
+      "coverage_pct": 67.94258373205741
+    }
+  },
+  "translation_curve": {
+    "resnet50": {
+      "0": {
+        "accuracy": 0.972,
+        "consistency": 1.0
+      },
+      "8": {
+        "accuracy": 0.9649999999999999,
+        "consistency": 0.986
+      },
+      "16": {
+        "accuracy": 0.9669999999999999,
+        "consistency": 0.9870000000000001
+      },
+      "32": {
+        "accuracy": 0.9594999999999999,
+        "consistency": 0.978
+      }
+    },
+    "vit_b_16": {
+      "0": {
+        "accuracy": 0.97,
+        "consistency": 1.0
+      },
+      "8": {
+        "accuracy": 0.9714999999999999,
+        "consistency": 0.9849999999999999
+      },
+      "16": {
+        "accuracy": 0.967,
+        "consistency": 0.9904999999999999
+      },
+      "32": {
+        "accuracy": 0.9629999999999999,
+        "consistency": 0.986
+      }
+    },
+    "clip_vit_b_32": {
+      "0": {
+        "accuracy": 0.966,
+        "consistency": 1.0
+      },
+      "8": {
+        "accuracy": 0.9664999999999999,
+        "consistency": 0.973
+      },
+      "16": {
+        "accuracy": 0.9614999999999999,
+        "consistency": 0.9634999999999999
+      },
+      "32": {
+        "accuracy": 0.9555,
+        "consistency": 0.966
+      }
+    }
+  },
+  "patch_shuffle": {
+    "resnet50": {
+      "accuracy": 0.888,
+      "consistency_vs_clean": 0.898
+    },
+    "vit_b_16": {
+      "accuracy": 0.914,
+      "consistency_vs_clean": 0.936
+    },
+    "clip_vit_b_32": {
+      "accuracy": 0.832,
+      "consistency_vs_clean": 0.818
+    }
+  },
+  "representation_stability": {
+    "resnet50": {
+      "grayscale": 0.7872628569602966,
+      "translation_32": 0.9228479266166687,
+      "patch_shuffle": 0.7148568630218506
+    },
+    "vit_b_16": {
+      "grayscale": 0.7369911074638367,
+      "translation_32": 0.9507132768630981,
+      "patch_shuffle": 0.6523898839950562
+    },
+    "clip_vit_b_32": {
+      "grayscale": 0.8942986726760864,
+      "translation_32": 0.964388906955719,
+      "patch_shuffle": 0.7327368259429932
+    }
+  },
+  "cue_conflict_counts": {
+    "accepted": 209,
+    "rejected": 335
+  },
+  "eval_subset_imbalance": {}
+}

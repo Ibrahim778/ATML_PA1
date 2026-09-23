@@ -1,0 +1,124 @@
+{
+  "vanilla_score_comparison": {
+    "msp": {
+      "auroc_near": 0.809733125,
+      "auroc_far": 0.8932665,
+      "auroc_all": 0.8514998125,
+      "threshold": 0.1274227499961853,
+      "test_acceptance_rate": 0.9426,
+      "fpr95_near": 0.69,
+      "fpr95_far": 0.52625
+    },
+    "mls": {
+      "auroc_near": 0.7900233125,
+      "auroc_far": 0.8912260000000001,
+      "auroc_all": 0.84062465625,
+      "threshold": -6.0128583908081055,
+      "test_acceptance_rate": 0.9441,
+      "fpr95_near": 0.655,
+      "fpr95_far": 0.4425
+    },
+    "energy": {
+      "auroc_near": 0.7901004375,
+      "auroc_far": 0.8916648749999999,
+      "auroc_all": 0.8408826562500001,
+      "threshold": -6.17077112197876,
+      "test_acceptance_rate": 0.9436,
+      "fpr95_near": 0.66,
+      "fpr95_far": 0.44125
+    },
+    "mahalanobis": {
+      "auroc_near": 0.7932950625,
+      "auroc_far": 0.9205613749999999,
+      "auroc_all": 0.85692821875,
+      "threshold": 2868.661865234375,
+      "test_acceptance_rate": 0.943,
+      "fpr95_near": 0.69125,
+      "fpr95_far": 0.44375
+    }
+  },
+  "model_comparison": {
+    "vanilla_mls": {
+      "csa": 0.9463,
+      "auroc_near": 0.7900233125,
+      "auroc_far": 0.8912260000000001,
+      "auroc_all": 0.84062465625,
+      "threshold": -6.0128583908081055,
+      "test_acceptance_rate": 0.9441,
+      "fpr95_near": 0.655,
+      "fpr95_far": 0.4425
+    },
+    "gcsc_mls": {
+      "csa": 0.9517,
+      "auroc_near": 0.815756125,
+      "auroc_far": 0.9050749375,
+      "auroc_all": 0.86041553125,
+      "threshold": -6.129458904266357,
+      "test_acceptance_rate": 0.9525,
+      "fpr95_near": 0.665,
+      "fpr95_far": 0.43625
+    },
+    "proser_mls": {
+      "csa": 0.9439,
+      "auroc_near": 0.809178125,
+      "auroc_far": 0.8798361875,
+      "auroc_all": 0.84450715625,
+      "threshold": -5.617694854736328,
+      "test_acceptance_rate": 0.9428,
+      "fpr95_near": 0.63375,
+      "fpr95_far": 0.50625
+    },
+    "proser_placeholder": {
+      "csa": 0.9439,
+      "auroc_near": 0.7899319999999999,
+      "auroc_far": 0.888297875,
+      "auroc_all": 0.8391149375,
+      "threshold": 0.6168937683105469,
+      "test_acceptance_rate": 0.9442,
+      "fpr95_near": 0.64625,
+      "fpr95_far": 0.4825
+    }
+  },
+  "failure_analysis": {
+    "near": [
+      {
+        "unknown_class": "fox",
+        "predicted_known_class": "dog",
+        "score": -12.465916633605957,
+        "threshold": -6.0128583908081055
+      },
+      {
+        "unknown_class": "bus",
+        "predicted_known_class": "truck",
+        "score": -11.919692993164062,
+        "threshold": -6.0128583908081055
+      },
+      {
+        "unknown_class": "pickup_truck",
+        "predicted_known_class": "automobile",
+        "score": -11.368038177490234,
+        "threshold": -6.0128583908081055
+      }
+    ],
+    "far": [
+      {
+        "unknown_class": "keyboard",
+        "predicted_known_class": "bird",
+        "score": -12.779480934143066,
+        "threshold": -6.0128583908081055
+      },
+      {
+        "unknown_class": "sunflower",
+        "predicted_known_class": "bird",
+        "score": -12.14584732055664,
+        "threshold": -6.0128583908081055
+      },
+      {
+        "unknown_class": "bottle",
+        "predicted_known_class": "cat",
+        "score": -11.90349006652832,
+        "threshold": -6.0128583908081055
+      }
+    ]
+  }
+}

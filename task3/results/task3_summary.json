@@ -1,0 +1,404 @@
+{
+  "comparison_table": {
+    "erm": {
+      "per_domain_val": {
+        "photo": {
+          "accuracy": 0.970059871673584,
+          "macro_f1": 0.9636329170755625
+        },
+        "art_painting": {
+          "accuracy": 0.8951219320297241,
+          "macro_f1": 0.8953981397702929
+        },
+        "cartoon": {
+          "accuracy": 0.9360341429710388,
+          "macro_f1": 0.9404232683685058
+        }
+      },
+      "mean_source_accuracy": 0.933738648891449,
+      "worst_source_accuracy": 0.8951219320297241,
+      "mean_source_f1": 0.9331514417381204,
+      "worst_source_f1": 0.8953981397702929,
+      "sketch_accuracy": 0.6607279181480408,
+      "sketch_macro_f1": 0.6747991673447807,
+      "source_domain_separability": 0.8604651162790697,
+      "sharpness_proxy": 0.22066912055015564,
+      "sketch_accuracy_change_vs_erm": 0.0
+    },
+    "dan_dg": {
+      "per_domain_val": {
+        "photo": {
+          "accuracy": 0.9520958065986633,
+          "macro_f1": 0.94539825769809
+        },
+        "art_painting": {
+          "accuracy": 0.8804877996444702,
+          "macro_f1": 0.8751480159457354
+        },
+        "cartoon": {
+          "accuracy": 0.916844367980957,
+          "macro_f1": 0.9229835822470062
+        }
+      },
+      "mean_source_accuracy": 0.9164759914080302,
+      "worst_source_accuracy": 0.8804877996444702,
+      "mean_source_f1": 0.9145099519636105,
+      "worst_source_f1": 0.8751480159457354,
+      "sketch_accuracy": 0.6950877904891968,
+      "sketch_macro_f1": 0.7055813259514646,
+      "source_domain_separability": 0.7940199335548173,
+      "sharpness_proxy": 0.17094504833221436,
+      "sketch_accuracy_change_vs_erm": 0.034359872341156006
+    },
+    "sam": {
+      "per_domain_val": {
+        "photo": {
+          "accuracy": 0.9730538725852966,
+          "macro_f1": 0.9679623647548539
+        },
+        "art_painting": {
+          "accuracy": 0.9073171019554138,
+          "macro_f1": 0.9033985696521621
+        },
+        "cartoon": {
+          "accuracy": 0.9402984976768494,
+          "macro_f1": 0.9465774523435257
+        }
+      },
+      "mean_source_accuracy": 0.9402231574058533,
+      "worst_source_accuracy": 0.9073171019554138,
+      "mean_source_f1": 0.9393127955835139,
+      "worst_source_f1": 0.9033985696521621,
+      "sketch_accuracy": 0.6737083196640015,
+      "sketch_macro_f1": 0.6777370924287157,
+      "source_domain_separability": 0.9169435215946844,
+      "sharpness_proxy": 0.06184355914592743,
+      "sketch_accuracy_change_vs_erm": 0.012980401515960693
+    }
+  },
+  "class_analysis_vs_erm": {
+    "dan_dg": {
+      "per_class_change": [
+        {
+          "class": 4,
+          "class_name": "horse",
+          "source_only_acc": 0.5821078419685364,
+          "method_acc": 0.781862735748291,
+          "delta": 0.19975489377975464
+        },
+        {
+          "class": 2,
+          "class_name": "giraffe",
+          "source_only_acc": 0.525896430015564,
+          "method_acc": 0.7131474018096924,
+          "delta": 0.18725097179412842
+        },
+        {
+          "class": 1,
+          "class_name": "elephant",
+          "source_only_acc": 0.8891891837120056,
+          "method_acc": 0.9202702641487122,
+          "delta": 0.031081080436706543
+        },
+        {
+          "class": 5,
+          "class_name": "house",
+          "source_only_acc": 0.875,
+          "method_acc": 0.8125,
+          "delta": -0.0625
+        },
+        {
+          "class": 6,
+          "class_name": "person",
+          "source_only_acc": 0.9624999761581421,
+          "method_acc": 0.887499988079071,
+          "delta": -0.07499998807907104
+        },
+        {
+          "class": 0,
+          "class_name": "dog",
+          "source_only_acc": 0.3730570077896118,
+          "method_acc": 0.28108808398246765,
+          "delta": -0.09196892380714417
+        },
+        {
+          "class": 3,
+          "class_name": "guitar",
+          "source_only_acc": 0.9128289222717285,
+          "method_acc": 0.7417762875556946,
+          "delta": -0.17105263471603394
+        }
+      ],
+      "dominant_confusions": [
+        {
+          "true_class": "dog",
+          "predicted_class": "horse",
+          "count": 188
+        },
+        {
+          "true_class": "dog",
+          "predicted_class": "elephant",
+          "count": 172
+        },
+        {
+          "true_class": "dog",
+          "predicted_class": "giraffe",
+          "count": 125
+        },
+        {
+          "true_class": "giraffe",
+          "predicted_class": "horse",
+          "count": 124
+        },
+        {
+          "true_class": "horse",
+          "predicted_class": "giraffe",
+          "count": 101
+        }
+      ]
+    },
+    "sam": {
+      "per_class_change": [
+        {
+          "class": 4,
+          "class_name": "horse",
+          "source_only_acc": 0.5821078419685364,
+          "method_acc": 0.6654411554336548,
+          "delta": 0.08333331346511841
+        },
+        {
+          "class": 2,
+          "class_name": "giraffe",
+          "source_only_acc": 0.525896430015564,
+          "method_acc": 0.5949535369873047,
+          "delta": 0.06905710697174072
+        },
+        {
+          "class": 0,
+          "class_name": "dog",
+          "source_only_acc": 0.3730570077896118,
+          "method_acc": 0.3756476640701294,
+          "delta": 0.002590656280517578
+        },
+        {
+          "class": 1,
+          "class_name": "elephant",
+          "source_only_acc": 0.8891891837120056,
+          "method_acc": 0.887837827205658,
+          "delta": -0.0013513565063476562
+        },
+        {
+          "class": 3,
+          "class_name": "guitar",
+          "source_only_acc": 0.9128289222717285,
+          "method_acc": 0.8421052694320679,
+          "delta": -0.07072365283966064
+        },
+        {
+          "class": 6,
+          "class_name": "person",
+          "source_only_acc": 0.9624999761581421,
+          "method_acc": 0.875,
+          "delta": -0.08749997615814209
+        },
+        {
+          "class": 5,
+          "class_name": "house",
+          "source_only_acc": 0.875,
+          "method_acc": 0.7124999761581421,
+          "delta": -0.1625000238418579
+        }
+      ],
+      "dominant_confusions": [
+        {
+          "true_class": "dog",
+          "predicted_class": "elephant",
+          "count": 189
+        },
+        {
+          "true_class": "dog",
+          "predicted_class": "horse",
+          "count": 146
+        },
+        {
+          "true_class": "dog",
+          "predicted_class": "person",
+          "count": 133
+        },
+        {
+          "true_class": "horse",
+          "predicted_class": "elephant",
+          "count": 109
+        },
+        {
+          "true_class": "giraffe",
+          "predicted_class": "horse",
+          "count": 96
+        }
+      ]
+    }
+  },
+  "training_curves": {
+    "dan_dg": [
+      {
+        "epoch": 0,
+        "cls_loss": 0.8091127276420593,
+        "pairwise_mmd": 0.32430845499038696
+      },
+      {
+        "epoch": 1,
+        "cls_loss": 0.1326340287923813,
+        "pairwise_mmd": 0.35408568382263184
+      },
+      {
+        "epoch": 2,
+        "cls_loss": 0.06427828967571259,
+        "pairwise_mmd": 0.20556308329105377
+      },
+      {
+        "epoch": 3,
+        "cls_loss": 0.3508225381374359,
+        "pairwise_mmd": 0.2599647641181946
+      },
+      {
+        "epoch": 4,
+        "cls_loss": 0.08475497364997864,
+        "pairwise_mmd": 0.31199344992637634
+      },
+      {
+        "epoch": 5,
+        "cls_loss": 0.24088071286678314,
+        "pairwise_mmd": 0.5578740239143372
+      },
+      {
+        "epoch": 6,
+        "cls_loss": 0.22596555948257446,
+        "pairwise_mmd": 0.3379160463809967
+      },
+      {
+        "epoch": 7,
+        "cls_loss": 0.33215996623039246,
+        "pairwise_mmd": 0.37337303161621094
+      },
+      {
+        "epoch": 8,
+        "cls_loss": 0.0834723487496376,
+        "pairwise_mmd": 0.21734553575515747
+      },
+      {
+        "epoch": 9,
+        "cls_loss": 0.27705708146095276,
+        "pairwise_mmd": 0.3518649637699127
+      },
+      {
+        "epoch": 10,
+        "cls_loss": 0.099903903901577,
+        "pairwise_mmd": 0.29562869668006897
+      },
+      {
+        "epoch": 11,
+        "cls_loss": 0.05215390399098396,
+        "pairwise_mmd": 0.3889136016368866
+      },
+      {
+        "epoch": 12,
+        "cls_loss": 0.002894178032875061,
+        "pairwise_mmd": 0.2562951147556305
+      }
+    ],
+    "sam": [
+      {
+        "epoch": 0,
+        "cls_loss": 1.4636040925979614
+      },
+      {
+        "epoch": 1,
+        "cls_loss": 0.6964448094367981
+      },
+      {
+        "epoch": 2,
+        "cls_loss": 0.14786283671855927
+      },
+      {
+        "epoch": 3,
+        "cls_loss": 0.6684361100196838
+      },
+      {
+        "epoch": 4,
+        "cls_loss": 0.3023867905139923
+      },
+      {
+        "epoch": 5,
+        "cls_loss": 0.22410427033901215
+      },
+      {
+        "epoch": 6,
+        "cls_loss": 0.25279465317726135
+      },
+      {
+        "epoch": 7,
+        "cls_loss": 0.24216872453689575
+      },
+      {
+        "epoch": 8,
+        "cls_loss": 0.2486550360918045
+      },
+      {
+        "epoch": 9,
+        "cls_loss": 0.14703266322612762
+      },
+      {
+        "epoch": 10,
+        "cls_loss": 0.1654525101184845
+      },
+      {
+        "epoch": 11,
+        "cls_loss": 0.09602808952331543
+      },
+      {
+        "epoch": 12,
+        "cls_loss": 0.04834159091114998
+      },
+      {
+        "epoch": 13,
+        "cls_loss": 0.014551974833011627
+      },
+      {
+        "epoch": 14,
+        "cls_loss": 0.01890748180449009
+      },
+      {
+        "epoch": 15,
+        "cls_loss": 0.03673708066344261
+      },
+      {
+        "epoch": 16,
+        "cls_loss": 0.07453606277704239
+      },
+      {
+        "epoch": 17,
+        "cls_loss": 0.035385895520448685
+      },
+      {
+        "epoch": 18,
+        "cls_loss": 0.007672296371310949
+      },
+      {
+        "epoch": 19,
+        "cls_loss": 0.07337586581707001
+      },
+      {
+        "epoch": 20,
+        "cls_loss": 0.02069191075861454
+      },
+      {
+        "epoch": 21,
+        "cls_loss": 0.014598696492612362
+      },
+      {
+        "epoch": 22,
+        "cls_loss": 0.0873311385512352
+      }
+    ]
+  }
+}

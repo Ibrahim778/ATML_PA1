@@ -1,0 +1,16 @@
+# Task 4 -- Vanilla closed-set baseline.
+# Values match the spec's fixed training recipe (Section 4, "Dataset,
+# Models, and Experimental Setup" -- SGD lr=0.1, momentum=0.9,
+# weight_decay=5e-4, cosine decay, batch 128, 100 epochs, seed 6304).
+variant: vanilla
+seed: 6304
+epochs: 100
+batch_size: 128
+
+optimizer:
+  name: sgd
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+
+scheduler: cosine

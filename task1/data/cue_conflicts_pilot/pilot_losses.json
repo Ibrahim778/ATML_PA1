@@ -1,0 +1,102 @@
+[
+  {
+    "file": "shape-monkey_texture-ship_content2019_style1600.png",
+    "content_loss": 1.1207201480865479,
+    "style_loss": 0.1277191936969757
+  },
+  {
+    "file": "shape-cat_texture-monkey_content56_style4276.png",
+    "content_loss": 0.926292896270752,
+    "style_loss": 0.055433858186006546
+  },
+  {
+    "file": "shape-airplane_texture-truck_content4797_style2574.png",
+    "content_loss": 1.5934040546417236,
+    "style_loss": 0.14302374422550201
+  },
+  {
+    "file": "shape-bird_texture-ship_content3004_style4381.png",
+    "content_loss": 0.8431360721588135,
+    "style_loss": 0.12032680213451385
+  },
+  {
+    "file": "shape-bird_texture-dog_content1542_style1062.png",
+    "content_loss": 1.021165370941162,
+    "style_loss": 0.14563003182411194
+  },
+  {
+    "file": "shape-horse_texture-truck_content3910_style2023.png",
+    "content_loss": 1.5886625051498413,
+    "style_loss": 0.13190068304538727
+  },
+  {
+    "file": "shape-cat_texture-ship_content1245_style1283.png",
+    "content_loss": 0.9238713979721069,
+    "style_loss": 0.15002767741680145
+  },
+  {
+    "file": "shape-deer_texture-truck_content1629_style175.png",
+    "content_loss": 1.8622775077819824,
+    "style_loss": 0.13134081661701202
+  },
+  {
+    "file": "shape-dog_texture-ship_content4824_style600.png",
+    "content_loss": 0.9232233762741089,
+    "style_loss": 0.12229078263044357
+  },
+  {
+    "file": "shape-airplane_texture-monkey_content3843_style4069.png",
+    "content_loss": 1.9776098728179932,
+    "style_loss": 0.11056821048259735
+  },
+  {
+    "file": "shape-car_texture-horse_content2271_style3910.png",
+    "content_loss": 0.8041310906410217,
+    "style_loss": 0.05062077194452286
+  },
+  {
+    "file": "shape-dog_texture-monkey_content1863_style3957.png",
+    "content_loss": 0.5972185730934143,
+    "style_loss": 0.0542549230158329
+  },
+  {
+    "file": "shape-bird_texture-deer_content4570_style2737.png",
+    "content_loss": 1.0405291318893433,
+    "style_loss": 0.07962781935930252
+  },
+  {
+    "file": "shape-car_texture-deer_content3068_style4684.png",
+    "content_loss": 1.1248034238815308,
+    "style_loss": 0.0908508449792862
+  },
+  {
+    "file": "shape-bird_texture-cat_content817_style2349.png",
+    "content_loss": 1.4988192319869995,
+    "style_loss": 0.10054663568735123
+  },
+  {
+    "file": "shape-dog_texture-truck_content3728_style4814.png",
+    "content_loss": 2.762122869491577,
+    "style_loss": 0.23204907774925232
+  },
+  {
+    "file": "shape-horse_texture-monkey_content3388_style593.png",
+    "content_loss": 0.5034593343734741,
+    "style_loss": 0.04189128056168556
+  },
+  {
+    "file": "shape-car_texture-monkey_content4971_style3774.png",
+    "content_loss": 0.6940906643867493,
+    "style_loss": 0.04982408136129379
+  },
+  {
+    "file": "shape-deer_texture-ship_content3422_style370.png",
+    "content_loss": 1.9093327522277832,
+    "style_loss": 0.18350328505039215
+  },
+  {
+    "file": "shape-dog_texture-horse_content4689_style862.png",
+    "content_loss": 0.9720284342765808,
+    "style_loss": 0.060561228543519974
+  }
+]

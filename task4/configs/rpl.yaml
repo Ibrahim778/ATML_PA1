@@ -1,0 +1,21 @@
+# Task 4 -- Reciprocal Point Learning (OPTIONAL extension, spec Section 4,
+# Step 5). Included here only to match the recommended repo structure's
+# configs/ layout; no task4/methods/rpl.py exists in this codebase, so this
+# file is not currently read by anything. If you implement RPL yourself,
+# wire your training script to load this the same way task4/train.py loads
+# vanilla.yaml / gcsc.yaml.
+variant: rpl
+seed: 6304
+epochs: 100
+batch_size: 128
+
+optimizer:
+  name: sgd
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+
+scheduler: cosine
+
+# RPL-specific settings you'd need to add if you implement it:
+# open_space_regularization_weight: <float, spec doesn't fix this -- set your own>

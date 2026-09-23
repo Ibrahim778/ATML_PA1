@@ -1,0 +1,92 @@
+{
+  "method": "dan_dg",
+  "checkpoint_path": "task3/results/dan_dg_checkpoint.pt",
+  "best_mean_source_val_f1": 0.9145099519636105,
+  "source_validation": {
+    "per_domain": {
+      "photo": {
+        "accuracy": 0.9520958065986633,
+        "macro_f1": 0.94539825769809
+      },
+      "art_painting": {
+        "accuracy": 0.8804877996444702,
+        "macro_f1": 0.8751480159457354
+      },
+      "cartoon": {
+        "accuracy": 0.916844367980957,
+        "macro_f1": 0.9229835822470062
+      }
+    },
+    "mean_macro_f1": 0.9145099519636105,
+    "worst_macro_f1": 0.8751480159457354,
+    "mean_accuracy": 0.9164759914080302,
+    "worst_accuracy": 0.8804877996444702
+  },
+  "training_curve": [
+    {
+      "epoch": 0,
+      "cls_loss": 0.8091127276420593,
+      "pairwise_mmd": 0.32430845499038696
+    },
+    {
+      "epoch": 1,
+      "cls_loss": 0.1326340287923813,
+      "pairwise_mmd": 0.35408568382263184
+    },
+    {
+      "epoch": 2,
+      "cls_loss": 0.06427828967571259,
+      "pairwise_mmd": 0.20556308329105377
+    },
+    {
+      "epoch": 3,
+      "cls_loss": 0.3508225381374359,
+      "pairwise_mmd": 0.2599647641181946
+    },
+    {
+      "epoch": 4,
+      "cls_loss": 0.08475497364997864,
+      "pairwise_mmd": 0.31199344992637634
+    },
+    {
+      "epoch": 5,
+      "cls_loss": 0.24088071286678314,
+      "pairwise_mmd": 0.5578740239143372
+    },
+    {
+      "epoch": 6,
+      "cls_loss": 0.22596555948257446,
+      "pairwise_mmd": 0.3379160463809967
+    },
+    {
+      "epoch": 7,
+      "cls_loss": 0.33215996623039246,
+      "pairwise_mmd": 0.37337303161621094
+    },
+    {
+      "epoch": 8,
+      "cls_loss": 0.0834723487496376,
+      "pairwise_mmd": 0.21734553575515747
+    },
+    {
+      "epoch": 9,
+      "cls_loss": 0.27705708146095276,
+      "pairwise_mmd": 0.3518649637699127
+    },
+    {
+      "epoch": 10,
+      "cls_loss": 0.099903903901577,
+      "pairwise_mmd": 0.29562869668006897
+    },
+    {
+      "epoch": 11,
+      "cls_loss": 0.05215390399098396,
+      "pairwise_mmd": 0.3889136016368866
+    },
+    {
+      "epoch": 12,
+      "cls_loss": 0.002894178032875061,
+      "pairwise_mmd": 0.2562951147556305
+    }
+  ]
+}

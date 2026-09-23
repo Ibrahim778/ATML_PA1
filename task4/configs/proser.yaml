@@ -1,0 +1,23 @@
+# Task 4 -- PROSER: fine-tuned from the Vanilla checkpoint, 5 dummy
+# classifiers, classifier-placeholder loss (beta) + manifold-mixup
+# data-placeholder loss (gamma). Spec Section 4, Step 4.
+variant: proser
+seed: 6304
+epochs: 50
+batch_size: 128
+num_known: 10
+num_dummy: 5
+beta: 1.0     # classifier-placeholder loss weight
+gamma: 0.1    # data-placeholder loss weight
+
+optimizer:
+  name: sgd
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 0.0005
+
+scheduler: cosine
+
+# Overridden at runtime once the Vanilla checkpoint path is known; kept here
+# so a single `python -m task4.train --variant proser` run is self-describing.
+vanilla_checkpoint: task4/results/vanilla_checkpoint.pt

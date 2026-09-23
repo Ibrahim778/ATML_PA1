@@ -1,0 +1,2432 @@
+{
+  "metadata": [
+    {
+      "file": "shape-monkey_texture-ship_content774_style4880.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 774,
+      "style_idx": 4880,
+      "ssim": 0.3546846875017901
+    },
+    {
+      "file": "shape-monkey_texture-ship_content764_style2576.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 764,
+      "style_idx": 2576,
+      "ssim": 0.38454645527818765
+    },
+    {
+      "file": "shape-monkey_texture-ship_content1814_style226.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 1814,
+      "style_idx": 226,
+      "ssim": 0.48645426379685425
+    },
+    {
+      "file": "shape-monkey_texture-ship_content3433_style342.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 3433,
+      "style_idx": 342,
+      "ssim": 0.45661250130529324
+    },
+    {
+      "file": "shape-monkey_texture-ship_content4879_style3080.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 4879,
+      "style_idx": 3080,
+      "ssim": 0.36635138755537966
+    },
+    {
+      "file": "shape-monkey_texture-ship_content3217_style483.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 3217,
+      "style_idx": 483,
+      "ssim": 0.44511744737762604
+    },
+    {
+      "file": "shape-monkey_texture-ship_content815_style4459.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 815,
+      "style_idx": 4459,
+      "ssim": 0.3572854493596413
+    },
+    {
+      "file": "shape-monkey_texture-ship_content4206_style4083.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 4206,
+      "style_idx": 4083,
+      "ssim": 0.597993777560669
+    },
+    {
+      "file": "shape-monkey_texture-ship_content2032_style3824.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 2032,
+      "style_idx": 3824,
+      "ssim": 0.450857539154063
+    },
+    {
+      "file": "shape-monkey_texture-ship_content2358_style2201.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 2358,
+      "style_idx": 2201,
+      "ssim": 0.26149756003955144
+    },
+    {
+      "file": "shape-monkey_texture-ship_content268_style4574.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 268,
+      "style_idx": 4574,
+      "ssim": 0.4902222040491641
+    },
+    {
+      "file": "shape-monkey_texture-ship_content816_style1721.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 816,
+      "style_idx": 1721,
+      "ssim": 0.36779681092140243
+    },
+    {
+      "file": "shape-monkey_texture-ship_content2386_style4366.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 2386,
+      "style_idx": 4366,
+      "ssim": 0.31986598842728675
+    },
+    {
+      "file": "shape-monkey_texture-ship_content4213_style790.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 4213,
+      "style_idx": 790,
+      "ssim": 0.23228730264929368
+    },
+    {
+      "file": "shape-monkey_texture-ship_content2916_style350.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 2916,
+      "style_idx": 350,
+      "ssim": 0.3915395797915769
+    },
+    {
+      "file": "shape-monkey_texture-ship_content4124_style666.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 4124,
+      "style_idx": 666,
+      "ssim": 0.4688885385991018
+    },
+    {
+      "file": "shape-monkey_texture-ship_content3265_style4065.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 3265,
+      "style_idx": 4065,
+      "ssim": 0.3463028433846165
+    },
+    {
+      "file": "shape-monkey_texture-ship_content2030_style4437.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 2030,
+      "style_idx": 4437,
+      "ssim": 0.30024976729832364
+    },
+    {
+      "file": "shape-monkey_texture-ship_content1224_style375.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 1224,
+      "style_idx": 375,
+      "ssim": 0.46091234775226597
+    },
+    {
+      "file": "shape-monkey_texture-ship_content4835_style4179.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 4835,
+      "style_idx": 4179,
+      "ssim": 0.414973329549879
+    },
+    {
+      "file": "shape-monkey_texture-ship_content1973_style4838.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 1973,
+      "style_idx": 4838,
+      "ssim": 0.47251763265217506
+    },
+    {
+      "file": "shape-monkey_texture-ship_content49_style4946.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 49,
+      "style_idx": 4946,
+      "ssim": 0.47870485140132124
+    },
+    {
+      "file": "shape-monkey_texture-ship_content3405_style4417.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 3405,
+      "style_idx": 4417,
+      "ssim": 0.48926627272367856
+    },
+    {
+      "file": "shape-monkey_texture-ship_content4494_style1622.png",
+      "shape_class": 7,
+      "texture_class": 8,
+      "shape_class_name": "monkey",
+      "texture_class_name": "ship",
+      "content_idx": 4494,
+      "style_idx": 1622,
+      "ssim": 0.6499519830808
+    },
+    {
+      "file": "shape-ship_texture-monkey_content3098_style2565.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 3098,
+      "style_idx": 2565,
+      "ssim": 0.29144259036853465
+    },
+    {
+      "file": "shape-ship_texture-monkey_content4366_style2718.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 4366,
+      "style_idx": 2718,
+      "ssim": 0.4907691179092096
+    },
+    {
+      "file": "shape-ship_texture-monkey_content1550_style4069.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 1550,
+      "style_idx": 4069,
+      "ssim": 0.2521291244389662
+    },
+    {
+      "file": "shape-ship_texture-monkey_content3087_style3348.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 3087,
+      "style_idx": 3348,
+      "ssim": 0.5037283500505114
+    },
+    {
+      "file": "shape-ship_texture-monkey_content4630_style1931.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 4630,
+      "style_idx": 1931,
+      "ssim": 0.295996925860142
+    },
+    {
+      "file": "shape-ship_texture-monkey_content1253_style2190.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 1253,
+      "style_idx": 2190,
+      "ssim": 0.2702348759261751
+    },
+    {
+      "file": "shape-ship_texture-monkey_content4323_style1011.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 4323,
+      "style_idx": 1011,
+      "ssim": 0.3300644123550524
+    },
+    {
+      "file": "shape-ship_texture-monkey_content1126_style2323.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 1126,
+      "style_idx": 2323,
+      "ssim": 0.3943555571616111
+    },
+    {
+      "file": "shape-ship_texture-monkey_content78_style428.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 78,
+      "style_idx": 428,
+      "ssim": 0.43447133180374087
+    },
+    {
+      "file": "shape-ship_texture-monkey_content1157_style3442.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 1157,
+      "style_idx": 3442,
+      "ssim": 0.43403973725661116
+    },
+    {
+      "file": "shape-ship_texture-monkey_content146_style1815.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 146,
+      "style_idx": 1815,
+      "ssim": 0.42052477716826486
+    },
+    {
+      "file": "shape-ship_texture-monkey_content926_style774.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 926,
+      "style_idx": 774,
+      "ssim": 0.35102131728135716
+    },
+    {
+      "file": "shape-ship_texture-monkey_content4138_style3140.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 4138,
+      "style_idx": 3140,
+      "ssim": 0.3306796417629929
+    },
+    {
+      "file": "shape-ship_texture-monkey_content2857_style3913.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 2857,
+      "style_idx": 3913,
+      "ssim": 0.31460664392165805
+    },
+    {
+      "file": "shape-ship_texture-monkey_content3921_style3265.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 3921,
+      "style_idx": 3265,
+      "ssim": 0.3441976456992518
+    },
+    {
+      "file": "shape-ship_texture-monkey_content666_style507.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 666,
+      "style_idx": 507,
+      "ssim": 0.323476936467483
+    },
+    {
+      "file": "shape-ship_texture-monkey_content890_style2693.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 890,
+      "style_idx": 2693,
+      "ssim": 0.2833897482615557
+    },
+    {
+      "file": "shape-ship_texture-monkey_content4574_style44.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 4574,
+      "style_idx": 44,
+      "ssim": 0.5208024276435247
+    },
+    {
+      "file": "shape-ship_texture-monkey_content4223_style1691.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 4223,
+      "style_idx": 1691,
+      "ssim": 0.5255398614176179
+    },
+    {
+      "file": "shape-ship_texture-monkey_content2873_style1569.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 2873,
+      "style_idx": 1569,
+      "ssim": 0.36453497309173744
+    },
+    {
+      "file": "shape-ship_texture-monkey_content446_style1589.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 446,
+      "style_idx": 1589,
+      "ssim": 0.48208833050964284
+    },
+    {
+      "file": "shape-ship_texture-monkey_content2510_style2849.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 2510,
+      "style_idx": 2849,
+      "ssim": 0.4648263497964768
+    },
+    {
+      "file": "shape-ship_texture-monkey_content946_style2388.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 946,
+      "style_idx": 2388,
+      "ssim": 0.4968559486049818
+    },
+    {
+      "file": "shape-ship_texture-monkey_content314_style4650.png",
+      "shape_class": 8,
+      "texture_class": 7,
+      "shape_class_name": "ship",
+      "texture_class_name": "monkey",
+      "content_idx": 314,
+      "style_idx": 4650,
+      "ssim": 0.2971835474597188
+    },
+    {
+      "file": "shape-cat_texture-monkey_content3463_style561.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 3463,
+      "style_idx": 561,
+      "ssim": 0.3141693174360526
+    },
+    {
+      "file": "shape-cat_texture-monkey_content739_style1712.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 739,
+      "style_idx": 1712,
+      "ssim": 0.6113069832771242
+    },
+    {
+      "file": "shape-cat_texture-monkey_content802_style3269.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 802,
+      "style_idx": 3269,
+      "ssim": 0.49407795256606946
+    },
+    {
+      "file": "shape-cat_texture-monkey_content3703_style2977.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 3703,
+      "style_idx": 2977,
+      "ssim": 0.4684201081557427
+    },
+    {
+      "file": "shape-cat_texture-monkey_content663_style4256.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 663,
+      "style_idx": 4256,
+      "ssim": 0.318991836065029
+    },
+    {
+      "file": "shape-cat_texture-monkey_content1043_style4500.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 1043,
+      "style_idx": 4500,
+      "ssim": 0.3237600499900492
+    },
+    {
+      "file": "shape-cat_texture-monkey_content3336_style3453.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 3336,
+      "style_idx": 3453,
+      "ssim": 0.3206564499635929
+    },
+    {
+      "file": "shape-cat_texture-monkey_content4844_style3842.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 4844,
+      "style_idx": 3842,
+      "ssim": 0.39704169495717306
+    },
+    {
+      "file": "shape-cat_texture-monkey_content2717_style1536.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 2717,
+      "style_idx": 1536,
+      "ssim": 0.3777852469458042
+    },
+    {
+      "file": "shape-cat_texture-monkey_content2016_style4208.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 2016,
+      "style_idx": 4208,
+      "ssim": 0.5155276744462346
+    },
+    {
+      "file": "shape-cat_texture-monkey_content1975_style4312.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 1975,
+      "style_idx": 4312,
+      "ssim": 0.3717670840436856
+    },
+    {
+      "file": "shape-cat_texture-monkey_content1084_style4756.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 1084,
+      "style_idx": 4756,
+      "ssim": 0.36515610750319266
+    },
+    {
+      "file": "shape-cat_texture-monkey_content4868_style36.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 4868,
+      "style_idx": 36,
+      "ssim": 0.5020368263296544
+    },
+    {
+      "file": "shape-cat_texture-monkey_content961_style469.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 961,
+      "style_idx": 469,
+      "ssim": 0.3759289778331177
+    },
+    {
+      "file": "shape-cat_texture-monkey_content1906_style159.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 1906,
+      "style_idx": 159,
+      "ssim": 0.42102102237124983
+    },
+    {
+      "file": "shape-cat_texture-monkey_content2928_style3990.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 2928,
+      "style_idx": 3990,
+      "ssim": 0.4036677931007546
+    },
+    {
+      "file": "shape-cat_texture-monkey_content3334_style67.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 3334,
+      "style_idx": 67,
+      "ssim": 0.3369247074053653
+    },
+    {
+      "file": "shape-cat_texture-monkey_content4900_style2289.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 4900,
+      "style_idx": 2289,
+      "ssim": 0.33795367230876994
+    },
+    {
+      "file": "shape-cat_texture-monkey_content904_style2486.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 904,
+      "style_idx": 2486,
+      "ssim": 0.46090862349648304
+    },
+    {
+      "file": "shape-cat_texture-monkey_content679_style4531.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 679,
+      "style_idx": 4531,
+      "ssim": 0.3812797298392972
+    },
+    {
+      "file": "shape-cat_texture-monkey_content1925_style820.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 1925,
+      "style_idx": 820,
+      "ssim": 0.5530326543477717
+    },
+    {
+      "file": "shape-cat_texture-monkey_content3688_style4116.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 3688,
+      "style_idx": 4116,
+      "ssim": 0.27115879761834905
+    },
+    {
+      "file": "shape-cat_texture-monkey_content4097_style1413.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 4097,
+      "style_idx": 1413,
+      "ssim": 0.5542551528105645
+    },
+    {
+      "file": "shape-cat_texture-monkey_content1917_style2596.png",
+      "shape_class": 3,
+      "texture_class": 7,
+      "shape_class_name": "cat",
+      "texture_class_name": "monkey",
+      "content_idx": 1917,
+      "style_idx": 2596,
+      "ssim": 0.24466631474633835
+    },
+    {
+      "file": "shape-monkey_texture-cat_content4910_style3981.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 4910,
+      "style_idx": 3981,
+      "ssim": 0.38640788208719895
+    },
+    {
+      "file": "shape-monkey_texture-cat_content4256_style1034.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 4256,
+      "style_idx": 1034,
+      "ssim": 0.34609685482928254
+    },
+    {
+      "file": "shape-monkey_texture-cat_content1691_style1934.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 1691,
+      "style_idx": 1934,
+      "ssim": 0.4185719138038234
+    },
+    {
+      "file": "shape-monkey_texture-cat_content3826_style1579.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 3826,
+      "style_idx": 1579,
+      "ssim": 0.37159739837165234
+    },
+    {
+      "file": "shape-monkey_texture-cat_content1815_style4097.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 1815,
+      "style_idx": 4097,
+      "ssim": 0.41880392956891876
+    },
+    {
+      "file": "shape-monkey_texture-cat_content3046_style1707.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 3046,
+      "style_idx": 1707,
+      "ssim": 0.34721869431698055
+    },
+    {
+      "file": "shape-monkey_texture-cat_content3913_style4250.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 3913,
+      "style_idx": 4250,
+      "ssim": 0.32190366141366716
+    },
+    {
+      "file": "shape-monkey_texture-cat_content3905_style1654.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 3905,
+      "style_idx": 1654,
+      "ssim": 0.41789324357233043
+    },
+    {
+      "file": "shape-monkey_texture-cat_content937_style3211.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 937,
+      "style_idx": 3211,
+      "ssim": 0.33753553354599636
+    },
+    {
+      "file": "shape-monkey_texture-cat_content4142_style3653.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 4142,
+      "style_idx": 3653,
+      "ssim": 0.44030266194245093
+    },
+    {
+      "file": "shape-monkey_texture-cat_content3918_style4214.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 3918,
+      "style_idx": 4214,
+      "ssim": 0.4980461492939062
+    },
+    {
+      "file": "shape-monkey_texture-cat_content454_style4801.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 454,
+      "style_idx": 4801,
+      "ssim": 0.5555099407901105
+    },
+    {
+      "file": "shape-monkey_texture-cat_content389_style4685.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 389,
+      "style_idx": 4685,
+      "ssim": 0.30648292871855004
+    },
+    {
+      "file": "shape-monkey_texture-cat_content2527_style1008.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 2527,
+      "style_idx": 1008,
+      "ssim": 0.31170325560573925
+    },
+    {
+      "file": "shape-monkey_texture-cat_content1643_style3412.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 1643,
+      "style_idx": 3412,
+      "ssim": 0.31294422678327405
+    },
+    {
+      "file": "shape-monkey_texture-cat_content4236_style728.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 4236,
+      "style_idx": 728,
+      "ssim": 0.49306664502914843
+    },
+    {
+      "file": "shape-monkey_texture-cat_content4821_style532.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 4821,
+      "style_idx": 532,
+      "ssim": 0.3932899765425381
+    },
+    {
+      "file": "shape-monkey_texture-cat_content561_style2095.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 561,
+      "style_idx": 2095,
+      "ssim": 0.3578199337076757
+    },
+    {
+      "file": "shape-monkey_texture-cat_content1621_style2310.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 1621,
+      "style_idx": 2310,
+      "ssim": 0.3038795207419441
+    },
+    {
+      "file": "shape-monkey_texture-cat_content1524_style4667.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 1524,
+      "style_idx": 4667,
+      "ssim": 0.4060886577314618
+    },
+    {
+      "file": "shape-monkey_texture-cat_content2466_style2615.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 2466,
+      "style_idx": 2615,
+      "ssim": 0.47861924509235987
+    },
+    {
+      "file": "shape-monkey_texture-cat_content2210_style1974.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 2210,
+      "style_idx": 1974,
+      "ssim": 0.24067366601603898
+    },
+    {
+      "file": "shape-monkey_texture-cat_content2136_style1741.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 2136,
+      "style_idx": 1741,
+      "ssim": 0.6301873087973672
+    },
+    {
+      "file": "shape-monkey_texture-cat_content3609_style3890.png",
+      "shape_class": 7,
+      "texture_class": 3,
+      "shape_class_name": "monkey",
+      "texture_class_name": "cat",
+      "content_idx": 3609,
+      "style_idx": 3890,
+      "ssim": 0.2890969996082086
+    },
+    {
+      "file": "shape-airplane_texture-truck_content3705_style2618.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 3705,
+      "style_idx": 2618,
+      "ssim": 0.5144637877384155
+    },
+    {
+      "file": "shape-airplane_texture-truck_content4948_style4584.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 4948,
+      "style_idx": 4584,
+      "ssim": 0.5594672294294263
+    },
+    {
+      "file": "shape-airplane_texture-truck_content354_style2436.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 354,
+      "style_idx": 2436,
+      "ssim": 0.30577326887326967
+    },
+    {
+      "file": "shape-airplane_texture-truck_content4238_style4982.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 4238,
+      "style_idx": 4982,
+      "ssim": 0.37980024223029335
+    },
+    {
+      "file": "shape-airplane_texture-truck_content3615_style644.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 3615,
+      "style_idx": 644,
+      "ssim": 0.3117955561613006
+    },
+    {
+      "file": "shape-airplane_texture-truck_content781_style1325.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 781,
+      "style_idx": 1325,
+      "ssim": 0.2989845810575558
+    },
+    {
+      "file": "shape-airplane_texture-truck_content198_style3578.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 198,
+      "style_idx": 3578,
+      "ssim": 0.4759292909041496
+    },
+    {
+      "file": "shape-airplane_texture-truck_content343_style4724.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 343,
+      "style_idx": 4724,
+      "ssim": 0.3507767780232303
+    },
+    {
+      "file": "shape-airplane_texture-truck_content3962_style2471.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 3962,
+      "style_idx": 2471,
+      "ssim": 0.4209785669784009
+    },
+    {
+      "file": "shape-airplane_texture-truck_content4753_style2059.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 4753,
+      "style_idx": 2059,
+      "ssim": 0.365001237342628
+    },
+    {
+      "file": "shape-airplane_texture-truck_content1412_style3048.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 1412,
+      "style_idx": 3048,
+      "ssim": 0.416535716903292
+    },
+    {
+      "file": "shape-airplane_texture-truck_content2076_style3752.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 2076,
+      "style_idx": 3752,
+      "ssim": 0.47865570498830656
+    },
+    {
+      "file": "shape-airplane_texture-truck_content646_style3309.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 646,
+      "style_idx": 3309,
+      "ssim": 0.3774832987932879
+    },
+    {
+      "file": "shape-airplane_texture-truck_content4968_style1471.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 4968,
+      "style_idx": 1471,
+      "ssim": 0.38651840063040305
+    },
+    {
+      "file": "shape-airplane_texture-truck_content574_style1225.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 574,
+      "style_idx": 1225,
+      "ssim": 0.4798970417932696
+    },
+    {
+      "file": "shape-airplane_texture-truck_content4310_style4446.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 4310,
+      "style_idx": 4446,
+      "ssim": 0.3106931517693902
+    },
+    {
+      "file": "shape-airplane_texture-truck_content2723_style2654.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 2723,
+      "style_idx": 2654,
+      "ssim": 0.3926402133244963
+    },
+    {
+      "file": "shape-airplane_texture-truck_content779_style458.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 779,
+      "style_idx": 458,
+      "ssim": 0.4234958920934615
+    },
+    {
+      "file": "shape-airplane_texture-truck_content740_style3183.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 740,
+      "style_idx": 3183,
+      "ssim": 0.34488772541957163
+    },
+    {
+      "file": "shape-airplane_texture-truck_content437_style2911.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 437,
+      "style_idx": 2911,
+      "ssim": 0.5871196772789745
+    },
+    {
+      "file": "shape-airplane_texture-truck_content2191_style3214.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 2191,
+      "style_idx": 3214,
+      "ssim": 0.38325983549612536
+    },
+    {
+      "file": "shape-airplane_texture-truck_content3742_style940.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 3742,
+      "style_idx": 940,
+      "ssim": 0.5056272391822347
+    },
+    {
+      "file": "shape-airplane_texture-truck_content2678_style3207.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 2678,
+      "style_idx": 3207,
+      "ssim": 0.3156056597570085
+    },
+    {
+      "file": "shape-airplane_texture-truck_content4632_style2738.png",
+      "shape_class": 0,
+      "texture_class": 9,
+      "shape_class_name": "airplane",
+      "texture_class_name": "truck",
+      "content_idx": 4632,
+      "style_idx": 2738,
+      "ssim": 0.2710520781025426
+    },
+    {
+      "file": "shape-truck_texture-airplane_content2605_style1576.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 2605,
+      "style_idx": 1576,
+      "ssim": 0.46892654812622353
+    },
+    {
+      "file": "shape-truck_texture-airplane_content4056_style2496.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 4056,
+      "style_idx": 2496,
+      "ssim": 0.35893362690028574
+    },
+    {
+      "file": "shape-truck_texture-airplane_content1559_style1477.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 1559,
+      "style_idx": 1477,
+      "ssim": 0.427236504290148
+    },
+    {
+      "file": "shape-truck_texture-airplane_content396_style1638.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 396,
+      "style_idx": 1638,
+      "ssim": 0.3528015092729192
+    },
+    {
+      "file": "shape-truck_texture-airplane_content1083_style3941.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 1083,
+      "style_idx": 3941,
+      "ssim": 0.4305098333272579
+    },
+    {
+      "file": "shape-truck_texture-airplane_content2936_style4627.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 2936,
+      "style_idx": 4627,
+      "ssim": 0.5347108350775311
+    },
+    {
+      "file": "shape-truck_texture-airplane_content3725_style980.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 3725,
+      "style_idx": 980,
+      "ssim": 0.3043218487844956
+    },
+    {
+      "file": "shape-truck_texture-airplane_content4982_style2040.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 4982,
+      "style_idx": 2040,
+      "ssim": 0.5671027797588297
+    },
+    {
+      "file": "shape-truck_texture-airplane_content3324_style2934.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 3324,
+      "style_idx": 2934,
+      "ssim": 0.4585856372434545
+    },
+    {
+      "file": "shape-truck_texture-airplane_content4511_style585.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 4511,
+      "style_idx": 585,
+      "ssim": 0.5669084966940228
+    },
+    {
+      "file": "shape-truck_texture-airplane_content647_style3110.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 647,
+      "style_idx": 3110,
+      "ssim": 0.2851738290062866
+    },
+    {
+      "file": "shape-truck_texture-airplane_content2793_style4948.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 2793,
+      "style_idx": 4948,
+      "ssim": 0.5230054968821995
+    },
+    {
+      "file": "shape-truck_texture-airplane_content1582_style708.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 1582,
+      "style_idx": 708,
+      "ssim": 0.49445778514019767
+    },
+    {
+      "file": "shape-truck_texture-airplane_content2011_style4322.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 2011,
+      "style_idx": 4322,
+      "ssim": 0.522995030417722
+    },
+    {
+      "file": "shape-truck_texture-airplane_content3417_style2387.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 3417,
+      "style_idx": 2387,
+      "ssim": 0.45777726173820044
+    },
+    {
+      "file": "shape-truck_texture-airplane_content1428_style2839.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 1428,
+      "style_idx": 2839,
+      "ssim": 0.43582658045132355
+    },
+    {
+      "file": "shape-truck_texture-airplane_content3718_style3424.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 3718,
+      "style_idx": 3424,
+      "ssim": 0.3653581187693302
+    },
+    {
+      "file": "shape-truck_texture-airplane_content1562_style4395.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 1562,
+      "style_idx": 4395,
+      "ssim": 0.3896176466745489
+    },
+    {
+      "file": "shape-truck_texture-airplane_content4098_style4310.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 4098,
+      "style_idx": 4310,
+      "ssim": 0.5038377743603709
+    },
+    {
+      "file": "shape-truck_texture-airplane_content1831_style4567.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 1831,
+      "style_idx": 4567,
+      "ssim": 0.44023268972673674
+    },
+    {
+      "file": "shape-truck_texture-airplane_content3207_style344.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 3207,
+      "style_idx": 344,
+      "ssim": 0.2551020045224574
+    },
+    {
+      "file": "shape-truck_texture-airplane_content3316_style3219.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 3316,
+      "style_idx": 3219,
+      "ssim": 0.34181266487149015
+    },
+    {
+      "file": "shape-truck_texture-airplane_content4393_style3092.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 4393,
+      "style_idx": 3092,
+      "ssim": 0.4191223851907557
+    },
+    {
+      "file": "shape-truck_texture-airplane_content3754_style3843.png",
+      "shape_class": 9,
+      "texture_class": 0,
+      "shape_class_name": "truck",
+      "texture_class_name": "airplane",
+      "content_idx": 3754,
+      "style_idx": 3843,
+      "ssim": 0.3567360731178526
+    },
+    {
+      "file": "shape-bird_texture-ship_content1718_style1306.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 1718,
+      "style_idx": 1306,
+      "ssim": 0.4046599060329175
+    },
+    {
+      "file": "shape-bird_texture-ship_content640_style3757.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 640,
+      "style_idx": 3757,
+      "ssim": 0.3879357412258036
+    },
+    {
+      "file": "shape-bird_texture-ship_content4112_style3109.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4112,
+      "style_idx": 3109,
+      "ssim": 0.46391001829501155
+    },
+    {
+      "file": "shape-bird_texture-ship_content664_style1970.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 664,
+      "style_idx": 1970,
+      "ssim": 0.4189682745411611
+    },
+    {
+      "file": "shape-bird_texture-ship_content4938_style2090.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4938,
+      "style_idx": 2090,
+      "ssim": 0.5617854174586762
+    },
+    {
+      "file": "shape-bird_texture-ship_content4702_style88.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4702,
+      "style_idx": 88,
+      "ssim": 0.6084433141398711
+    },
+    {
+      "file": "shape-bird_texture-ship_content4625_style3397.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4625,
+      "style_idx": 3397,
+      "ssim": 0.5727919947927193
+    },
+    {
+      "file": "shape-bird_texture-ship_content3016_style342.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 3016,
+      "style_idx": 342,
+      "ssim": 0.49404743706687404
+    },
+    {
+      "file": "shape-bird_texture-ship_content148_style395.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 148,
+      "style_idx": 395,
+      "ssim": 0.4889388426918998
+    },
+    {
+      "file": "shape-bird_texture-ship_content4308_style3663.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4308,
+      "style_idx": 3663,
+      "ssim": 0.4171433004265573
+    },
+    {
+      "file": "shape-bird_texture-ship_content1087_style4480.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 1087,
+      "style_idx": 4480,
+      "ssim": 0.390927298639552
+    },
+    {
+      "file": "shape-bird_texture-ship_content2028_style4111.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 2028,
+      "style_idx": 4111,
+      "ssim": 0.5708468091295531
+    },
+    {
+      "file": "shape-bird_texture-ship_content2557_style1416.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 2557,
+      "style_idx": 1416,
+      "ssim": 0.5371638802195954
+    },
+    {
+      "file": "shape-bird_texture-ship_content1018_style1280.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 1018,
+      "style_idx": 1280,
+      "ssim": 0.30072050288711855
+    },
+    {
+      "file": "shape-bird_texture-ship_content1038_style1431.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 1038,
+      "style_idx": 1431,
+      "ssim": 0.5026565846616355
+    },
+    {
+      "file": "shape-bird_texture-ship_content641_style2337.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 641,
+      "style_idx": 2337,
+      "ssim": 0.43162478419452305
+    },
+    {
+      "file": "shape-bird_texture-ship_content2762_style2069.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 2762,
+      "style_idx": 2069,
+      "ssim": 0.5118648815470263
+    },
+    {
+      "file": "shape-bird_texture-ship_content4586_style2120.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4586,
+      "style_idx": 2120,
+      "ssim": 0.39884079293899904
+    },
+    {
+      "file": "shape-bird_texture-ship_content1771_style4693.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 1771,
+      "style_idx": 4693,
+      "ssim": 0.5589663599105901
+    },
+    {
+      "file": "shape-bird_texture-ship_content4612_style371.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4612,
+      "style_idx": 371,
+      "ssim": 0.4967565104883849
+    },
+    {
+      "file": "shape-bird_texture-ship_content2743_style4260.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 2743,
+      "style_idx": 4260,
+      "ssim": 0.3425650349380371
+    },
+    {
+      "file": "shape-bird_texture-ship_content3249_style2446.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 3249,
+      "style_idx": 2446,
+      "ssim": 0.42276621481227816
+    },
+    {
+      "file": "shape-bird_texture-ship_content1542_style4574.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 1542,
+      "style_idx": 4574,
+      "ssim": 0.33353149546548166
+    },
+    {
+      "file": "shape-bird_texture-ship_content4029_style3437.png",
+      "shape_class": 1,
+      "texture_class": 8,
+      "shape_class_name": "bird",
+      "texture_class_name": "ship",
+      "content_idx": 4029,
+      "style_idx": 3437,
+      "ssim": 0.527565267505892
+    },
+    {
+      "file": "shape-ship_texture-bird_content1065_style3767.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 1065,
+      "style_idx": 3767,
+      "ssim": 0.5167586305157655
+    },
+    {
+      "file": "shape-ship_texture-bird_content4930_style24.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 4930,
+      "style_idx": 24,
+      "ssim": 0.49825501995952726
+    },
+    {
+      "file": "shape-ship_texture-bird_content1496_style1801.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 1496,
+      "style_idx": 1801,
+      "ssim": 0.24437633554934912
+    },
+    {
+      "file": "shape-ship_texture-bird_content4693_style1026.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 4693,
+      "style_idx": 1026,
+      "ssim": 0.43521075495393996
+    },
+    {
+      "file": "shape-ship_texture-bird_content4323_style2818.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 4323,
+      "style_idx": 2818,
+      "ssim": 0.3344255593065182
+    },
+    {
+      "file": "shape-ship_texture-bird_content4320_style1886.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 4320,
+      "style_idx": 1886,
+      "ssim": 0.364752646208905
+    },
+    {
+      "file": "shape-ship_texture-bird_content1780_style4612.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 1780,
+      "style_idx": 4612,
+      "ssim": 0.5081530699517615
+    },
+    {
+      "file": "shape-ship_texture-bird_content2857_style4319.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 2857,
+      "style_idx": 4319,
+      "ssim": 0.52376654851657
+    },
+    {
+      "file": "shape-ship_texture-bird_content2389_style4688.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 2389,
+      "style_idx": 4688,
+      "ssim": 0.2781961880512591
+    },
+    {
+      "file": "shape-ship_texture-bird_content2929_style3522.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 2929,
+      "style_idx": 3522,
+      "ssim": 0.4054202139990702
+    },
+    {
+      "file": "shape-ship_texture-bird_content4648_style3533.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 4648,
+      "style_idx": 3533,
+      "ssim": 0.40291916069805833
+    },
+    {
+      "file": "shape-ship_texture-bird_content1202_style3176.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 1202,
+      "style_idx": 3176,
+      "ssim": 0.49413343366469603
+    },
+    {
+      "file": "shape-ship_texture-bird_content1280_style817.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 1280,
+      "style_idx": 817,
+      "ssim": 0.27515058427339156
+    },
+    {
+      "file": "shape-ship_texture-bird_content4973_style459.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 4973,
+      "style_idx": 459,
+      "ssim": 0.1853079764416787
+    },
+    {
+      "file": "shape-ship_texture-bird_content4556_style4974.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 4556,
+      "style_idx": 4974,
+      "ssim": 0.3933644993720818
+    },
+    {
+      "file": "shape-ship_texture-bird_content1646_style2846.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 1646,
+      "style_idx": 2846,
+      "ssim": 0.32875609868572525
+    },
+    {
+      "file": "shape-ship_texture-bird_content2973_style4887.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 2973,
+      "style_idx": 4887,
+      "ssim": 0.5850369079275102
+    },
+    {
+      "file": "shape-ship_texture-bird_content1782_style1289.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 1782,
+      "style_idx": 1289,
+      "ssim": 0.5961074861678535
+    },
+    {
+      "file": "shape-ship_texture-bird_content3078_style568.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 3078,
+      "style_idx": 568,
+      "ssim": 0.5716183087628388
+    },
+    {
+      "file": "shape-ship_texture-bird_content3494_style2511.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 3494,
+      "style_idx": 2511,
+      "ssim": 0.5896668633577704
+    },
+    {
+      "file": "shape-ship_texture-bird_content3944_style4468.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 3944,
+      "style_idx": 4468,
+      "ssim": 0.6375220852145838
+    },
+    {
+      "file": "shape-ship_texture-bird_content3015_style2964.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 3015,
+      "style_idx": 2964,
+      "ssim": 0.4742185826018504
+    },
+    {
+      "file": "shape-ship_texture-bird_content446_style3330.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 446,
+      "style_idx": 3330,
+      "ssim": 0.5651674780986339
+    },
+    {
+      "file": "shape-ship_texture-bird_content3735_style1194.png",
+      "shape_class": 8,
+      "texture_class": 1,
+      "shape_class_name": "ship",
+      "texture_class_name": "bird",
+      "content_idx": 3735,
+      "style_idx": 1194,
+      "ssim": 0.49438688553054844
+    },
+    {
+      "file": "shape-bird_texture-dog_content2224_style1352.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 2224,
+      "style_idx": 1352,
+      "ssim": 0.5307233113914553
+    },
+    {
+      "file": "shape-bird_texture-dog_content4764_style3784.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 4764,
+      "style_idx": 3784,
+      "ssim": 0.5114380965911093
+    },
+    {
+      "file": "shape-bird_texture-dog_content2511_style1944.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 2511,
+      "style_idx": 1944,
+      "ssim": 0.45979851391356874
+    },
+    {
+      "file": "shape-bird_texture-dog_content1004_style3121.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 1004,
+      "style_idx": 3121,
+      "ssim": 0.4412261274824338
+    },
+    {
+      "file": "shape-bird_texture-dog_content1625_style2444.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 1625,
+      "style_idx": 2444,
+      "ssim": 0.41322355737742367
+    },
+    {
+      "file": "shape-bird_texture-dog_content945_style2583.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 945,
+      "style_idx": 2583,
+      "ssim": 0.3811348543992191
+    },
+    {
+      "file": "shape-bird_texture-dog_content4244_style1761.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 4244,
+      "style_idx": 1761,
+      "ssim": 0.3988711178382399
+    },
+    {
+      "file": "shape-bird_texture-dog_content916_style823.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 916,
+      "style_idx": 823,
+      "ssim": 0.5567085470885847
+    },
+    {
+      "file": "shape-bird_texture-dog_content4269_style1792.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 4269,
+      "style_idx": 1792,
+      "ssim": 0.45382967295902105
+    },
+    {
+      "file": "shape-bird_texture-dog_content2946_style907.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 2946,
+      "style_idx": 907,
+      "ssim": 0.340739526796912
+    },
+    {
+      "file": "shape-bird_texture-dog_content762_style1907.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 762,
+      "style_idx": 1907,
+      "ssim": 0.4707842501312539
+    },
+    {
+      "file": "shape-bird_texture-dog_content3375_style2555.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 3375,
+      "style_idx": 2555,
+      "ssim": 0.22954867243431995
+    },
+    {
+      "file": "shape-bird_texture-dog_content33_style1850.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 33,
+      "style_idx": 1850,
+      "ssim": 0.6858367351434685
+    },
+    {
+      "file": "shape-bird_texture-dog_content3857_style1386.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 3857,
+      "style_idx": 1386,
+      "ssim": 0.42832384043040717
+    },
+    {
+      "file": "shape-bird_texture-dog_content3295_style2352.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 3295,
+      "style_idx": 2352,
+      "ssim": 0.4766792243209163
+    },
+    {
+      "file": "shape-bird_texture-dog_content4721_style76.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 4721,
+      "style_idx": 76,
+      "ssim": 0.3472949303789645
+    },
+    {
+      "file": "shape-bird_texture-dog_content1088_style2985.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 1088,
+      "style_idx": 2985,
+      "ssim": 0.41023054671654824
+    },
+    {
+      "file": "shape-bird_texture-dog_content4698_style905.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 4698,
+      "style_idx": 905,
+      "ssim": 0.30023519742756205
+    },
+    {
+      "file": "shape-bird_texture-dog_content1120_style113.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 1120,
+      "style_idx": 113,
+      "ssim": 0.3748110554149207
+    },
+    {
+      "file": "shape-bird_texture-dog_content664_style3885.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 664,
+      "style_idx": 3885,
+      "ssim": 0.4219972902419743
+    },
+    {
+      "file": "shape-bird_texture-dog_content3009_style535.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 3009,
+      "style_idx": 535,
+      "ssim": 0.5090465208399102
+    },
+    {
+      "file": "shape-bird_texture-dog_content4012_style2706.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 4012,
+      "style_idx": 2706,
+      "ssim": 0.5381878190419158
+    },
+    {
+      "file": "shape-bird_texture-dog_content4513_style3908.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 4513,
+      "style_idx": 3908,
+      "ssim": 0.4549322368721762
+    },
+    {
+      "file": "shape-bird_texture-dog_content1300_style4180.png",
+      "shape_class": 1,
+      "texture_class": 5,
+      "shape_class_name": "bird",
+      "texture_class_name": "dog",
+      "content_idx": 1300,
+      "style_idx": 4180,
+      "ssim": 0.7285618328772594
+    },
+    {
+      "file": "shape-dog_texture-bird_content2893_style4557.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 2893,
+      "style_idx": 4557,
+      "ssim": 0.40877338503312005
+    },
+    {
+      "file": "shape-dog_texture-bird_content1015_style901.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 1015,
+      "style_idx": 901,
+      "ssim": 0.4400223351231793
+    },
+    {
+      "file": "shape-dog_texture-bird_content2699_style4450.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 2699,
+      "style_idx": 4450,
+      "ssim": 0.4707020308944278
+    },
+    {
+      "file": "shape-dog_texture-bird_content4661_style3737.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 4661,
+      "style_idx": 3737,
+      "ssim": 0.3530883973398095
+    },
+    {
+      "file": "shape-dog_texture-bird_content2638_style762.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 2638,
+      "style_idx": 762,
+      "ssim": 0.19994753590705397
+    },
+    {
+      "file": "shape-dog_texture-bird_content29_style3258.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 29,
+      "style_idx": 3258,
+      "ssim": 0.2489551850227047
+    },
+    {
+      "file": "shape-dog_texture-bird_content1835_style3415.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 1835,
+      "style_idx": 3415,
+      "ssim": 0.21618456106312345
+    },
+    {
+      "file": "shape-dog_texture-bird_content2676_style2846.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 2676,
+      "style_idx": 2846,
+      "ssim": 0.474111041390002
+    },
+    {
+      "file": "shape-dog_texture-bird_content1133_style1950.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 1133,
+      "style_idx": 1950,
+      "ssim": 0.39625932947755566
+    },
+    {
+      "file": "shape-dog_texture-bird_content4272_style4569.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 4272,
+      "style_idx": 4569,
+      "ssim": 0.24279457484934408
+    },
+    {
+      "file": "shape-dog_texture-bird_content3173_style3785.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 3173,
+      "style_idx": 3785,
+      "ssim": 0.4089887079152613
+    },
+    {
+      "file": "shape-dog_texture-bird_content221_style1853.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 221,
+      "style_idx": 1853,
+      "ssim": 0.5105225301176395
+    },
+    {
+      "file": "shape-dog_texture-bird_content4775_style3089.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 4775,
+      "style_idx": 3089,
+      "ssim": 0.3954402386251545
+    },
+    {
+      "file": "shape-dog_texture-bird_content1250_style776.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 1250,
+      "style_idx": 776,
+      "ssim": 0.3543735040643538
+    },
+    {
+      "file": "shape-dog_texture-bird_content1410_style3396.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 1410,
+      "style_idx": 3396,
+      "ssim": 0.5001047893930206
+    },
+    {
+      "file": "shape-dog_texture-bird_content2583_style176.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 2583,
+      "style_idx": 176,
+      "ssim": 0.23421951174261843
+    },
+    {
+      "file": "shape-dog_texture-bird_content775_style1801.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 775,
+      "style_idx": 1801,
+      "ssim": 0.5030135817039086
+    },
+    {
+      "file": "shape-dog_texture-bird_content248_style3820.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 248,
+      "style_idx": 3820,
+      "ssim": 0.41674044694758827
+    },
+    {
+      "file": "shape-dog_texture-bird_content3932_style596.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 3932,
+      "style_idx": 596,
+      "ssim": 0.4194323869150772
+    },
+    {
+      "file": "shape-dog_texture-bird_content393_style3729.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 393,
+      "style_idx": 3729,
+      "ssim": 0.41741520003768795
+    },
+    {
+      "file": "shape-dog_texture-bird_content1580_style1684.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 1580,
+      "style_idx": 1684,
+      "ssim": 0.28645410777895314
+    },
+    {
+      "file": "shape-dog_texture-bird_content3884_style2013.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 3884,
+      "style_idx": 2013,
+      "ssim": 0.46617404970443194
+    },
+    {
+      "file": "shape-dog_texture-bird_content2230_style2867.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 2230,
+      "style_idx": 2867,
+      "ssim": 0.40928943269696144
+    },
+    {
+      "file": "shape-dog_texture-bird_content618_style780.png",
+      "shape_class": 5,
+      "texture_class": 1,
+      "shape_class_name": "dog",
+      "texture_class_name": "bird",
+      "content_idx": 618,
+      "style_idx": 780,
+      "ssim": 0.4718628822885455
+    }
+  ],
+  "n_accepted": 240,
+  "n_rejected": 0,
+  "class_pairs": [
+    [
+      7,
+      8
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "content_loss_max": 0.4,
+  "style_loss_max": 0.14,
+  "alpha": 1,
+  "method": "AdaIN (Huang & Belongie, 2017); weights from naoto0804/pytorch-AdaIN"
+}

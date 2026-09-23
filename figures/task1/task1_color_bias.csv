@@ -1,0 +1,7 @@
+condition,model,accuracy,consistency_vs_clean,mean_max_conf
+grayscale,resnet50,0.946,0.952,0.9433900602459907
+grayscale,vit_b_16,0.95,0.978,0.9545266463160514
+grayscale,clip_vit_b_32,0.938,0.94,0.22534887526929379
+hue_rotate_90,resnet50,0.938,0.954,0.9273587423563003
+hue_rotate_90,vit_b_16,0.934,0.958,0.9381723409891128
+hue_rotate_90,clip_vit_b_32,0.948,0.952,0.2163127074688673

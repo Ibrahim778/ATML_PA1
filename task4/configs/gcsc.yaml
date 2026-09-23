@@ -1,0 +1,19 @@
+# Task 4 -- GCSC: identical recipe to Vanilla, plus RandAugment inserted
+# after crop/flip and before ToTensor/Normalize (spec Section 4, Step 3
+# "GCSC -- Strong Closed-Set Classifier + MLS").
+variant: gcsc
+seed: 6304
+epochs: 100
+batch_size: 128
+
+optimizer:
+  name: sgd
+  lr: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+
+scheduler: cosine
+
+randaugment:
+  num_ops: 2
+  magnitude: 9
