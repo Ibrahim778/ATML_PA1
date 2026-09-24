@@ -1,3 +1,3 @@
 method: dann
 max_alpha: 2.5
-discriminator_lr: 0.00001
+disc_lr: 0.00001

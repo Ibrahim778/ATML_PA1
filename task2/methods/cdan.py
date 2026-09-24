@@ -7,6 +7,7 @@ weight as DANN. No entropy conditioning; f and p are not detached, per spec.
 
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 
 from shared.grl import GradientReversalLayer, grl_alpha_schedule
 from task2.models.domain_discriminator import DomainDiscriminator, cdan_multilinear_map
@@ -15,7 +16,8 @@ from task2.models.domain_discriminator import DomainDiscriminator, cdan_multilin
 class CDAN:
     name = "cdan"
 
-    def __init__(self, feature_dim: int, num_classes: int, device: str, max_alpha: float = 1.0, **kwargs):
+    def __init__(self, feature_dim: int, num_classes: int, device: str, max_alpha: float = 1.0,
+                 grad_clip_norm: float = 5.0, **kwargs):
         """**kwargs absorbs config keys meant for other methods (e.g.
         lambda_mmd), which train.py passes through unfiltered since
         base.yaml sets them as universal defaults."""
@@ -26,9 +28,19 @@ class CDAN:
         self.device = device
         self.num_classes = num_classes
         self.max_alpha = max_alpha
+        self.grad_clip_norm = grad_clip_norm
 
     def extra_parameters(self):
         return list(self.discriminator.parameters())
+
+    def clip_gradients(self, backbone):
+        """Call AFTER loss.backward() and BEFORE optimizer.step() in the
+        training loop. Clips gradients on both the backbone (which gets
+        gradients reversed through the GRL) and the discriminator, since the
+        multilinear map g = vec(f (x) p) can otherwise produce very large
+        gradients early in training when p is close to one-hot."""
+        torch.nn.utils.clip_grad_norm_(backbone.parameters(), self.grad_clip_norm)
+        torch.nn.utils.clip_grad_norm_(self.discriminator.parameters(), self.grad_clip_norm)
 
     def compute_loss(self, backbone, source_batches: dict, target_batch, progress_p: float):
         self.grl.alpha = self.max_alpha * grl_alpha_schedule(progress_p)
@@ -52,6 +64,7 @@ class CDAN:
         all_probs = torch.softmax(all_logits, dim=1)  # not detached, per spec
 
         g = cdan_multilinear_map(all_feats, all_probs)
+        g = F.normalize(g, p=2, dim=1)  # bound the outer product's norm before GRL/discriminator
         reversed_g = self.grl(g)
         domain_logits = self.discriminator(reversed_g)
 
