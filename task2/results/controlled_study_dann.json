@@ -1,0 +1,20 @@
+[
+  {
+    "max_grl_alpha": 0.25,
+    "mean_source_val_f1": 0.9200077195317933,
+    "target_accuracy": 0.4011198878288269,
+    "target_macro_f1": 0.42032693601379156
+  },
+  {
+    "max_grl_alpha": 0.5,
+    "mean_source_val_f1": 0.9200077195317933,
+    "target_accuracy": 0.4011198878288269,
+    "target_macro_f1": 0.42032693601379156
+  },
+  {
+    "max_grl_alpha": 1.0,
+    "mean_source_val_f1": 0.9200077195317933,
+    "target_accuracy": 0.4011198878288269,
+    "target_macro_f1": 0.42032693601379156
+  }
+]

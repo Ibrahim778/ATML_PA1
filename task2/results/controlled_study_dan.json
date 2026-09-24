@@ -1,0 +1,20 @@
+[
+  {
+    "lambda_mmd": 0.1,
+    "mean_source_val_f1": 0.932167729918663,
+    "target_accuracy": 0.7050139904022217,
+    "target_macro_f1": 0.6715116963127699
+  },
+  {
+    "lambda_mmd": 1.0,
+    "mean_source_val_f1": 0.9249439604938209,
+    "target_accuracy": 0.6762534976005554,
+    "target_macro_f1": 0.6304071657052394
+  },
+  {
+    "lambda_mmd": 10.0,
+    "mean_source_val_f1": 0.8750954397680478,
+    "target_accuracy": 0.6538559198379517,
+    "target_macro_f1": 0.6040041155076474
+  }
+]
