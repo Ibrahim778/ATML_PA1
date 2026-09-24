@@ -1,0 +1,20 @@
+[
+  {
+    "lambda_dg": 0.1,
+    "mean_source_val_f1": 0.947722249266095,
+    "sketch_accuracy": 0.6670908331871033,
+    "sketch_macro_f1": 0.6759083706988817
+  },
+  {
+    "lambda_dg": 1.0,
+    "mean_source_val_f1": 0.9487605921544802,
+    "sketch_accuracy": 0.6261135339736938,
+    "sketch_macro_f1": 0.6413443644312624
+  },
+  {
+    "lambda_dg": 10.0,
+    "mean_source_val_f1": 0.924955210050005,
+    "sketch_accuracy": 0.6627640724182129,
+    "sketch_macro_f1": 0.6635126393845538
+  }
+]
