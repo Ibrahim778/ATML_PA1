@@ -86,7 +86,7 @@ def train_task2_method(method_name: str, root: str, device: str = "mps",
     # optimizer over both parameter groups, so their step dynamics (and,
     # if ever needed, learning rates) don't have to be coupled.
     is_dann = method_name == "dann"
-    if is_dann:
+    if is_dann and False:
         optimizer = torch.optim.AdamW(backbone.parameters(), lr=lr, weight_decay=weight_decay)
         disc_optimizer = torch.optim.AdamW(method.extra_parameters(),
                                             lr=disc_lr if disc_lr is not None else lr,
@@ -124,11 +124,11 @@ def train_task2_method(method_name: str, root: str, device: str = "mps",
             loss, logs = method.compute_loss(backbone, source_batches, target_batch, progress_p)
 
             optimizer.zero_grad()
-            if is_dann:
+            if is_dann and False:
                 disc_optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            if is_dann:
+            if is_dann and False:
                 disc_optimizer.step()
             step += 1
             step_bar.set_postfix({k: f"{v:.4f}" if isinstance(v, float) else v for k, v in logs.items()})
