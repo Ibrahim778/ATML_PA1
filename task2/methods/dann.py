@@ -8,6 +8,7 @@ and target contribute to the domain loss.
 
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 
 from shared.grl import GradientReversalLayer, grl_alpha_schedule
 from task2.models.domain_discriminator import DomainDiscriminator
@@ -46,6 +47,14 @@ class DANN:
         _, target_feats = backbone(x_t, return_features=True)
 
         all_feats = torch.cat([source_feats, target_feats], dim=0)
+        # L2-normalize before the GRL/discriminator: unbounded feature norms
+        # let the classifier and discriminator inflate each other's
+        # gradients (this is what was driving cls_loss/domain_loss to blow
+        # up over epochs). Classification logits above are computed from
+        # the un-normalized feat inside backbone(), so this only affects
+        # the adversarial branch.
+        all_feats = F.normalize(all_feats, p=2, dim=1)
+
         domain_labels = torch.cat([
             torch.zeros(source_feats.size(0), dtype=torch.long),
             torch.ones(target_feats.size(0), dtype=torch.long),
