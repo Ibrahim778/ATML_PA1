@@ -45,7 +45,6 @@ def train_task2_method(method_name: str, root: str, device: str = "mps",
                         batch_per_source: int = 8, batch_target: int = 24,
                         seed: int = SEED, out_dir: str = "task2/results",
                         lr: float = 1e-4, weight_decay: float = 1e-4,
-                        disc_lr: float = 1e-5,
                         method_kwargs: dict = None):
     method_kwargs = method_kwargs or {}
     os.makedirs(out_dir, exist_ok=True)
@@ -81,20 +80,9 @@ def train_task2_method(method_name: str, root: str, device: str = "mps",
     backbone = ResNet18Backbone(num_classes=NUM_CLASSES).to(device)
     method = build_method(method_name, backbone.feature_dim, device, **method_kwargs)
 
-    # DANN trains two adversarial models (classifier/backbone vs.
-    # discriminator) -- give each its own optimizer instead of one combined
-    # optimizer over both parameter groups, so their step dynamics (and,
-    # if ever needed, learning rates) don't have to be coupled.
-    is_dann = method_name == "dann"
-    if is_dann and False:
-        optimizer = torch.optim.AdamW(backbone.parameters(), lr=lr, weight_decay=weight_decay)
-        disc_optimizer = torch.optim.AdamW(method.extra_parameters(),
-                                            lr=disc_lr if disc_lr is not None else lr,
-                                            weight_decay=weight_decay)
-    else:
-        optimizer = torch.optim.AdamW(
-            list(backbone.parameters()) + method.extra_parameters(), lr=lr, weight_decay=weight_decay
-        )
+    optimizer = torch.optim.AdamW(
+        list(backbone.parameters()) + method.extra_parameters(), lr=lr, weight_decay=weight_decay
+    )
     print(f"[task2:{method_name}] Starting training: max_epochs={max_epochs}, "
           f"patience={patience}, steps_per_epoch=50")
 
@@ -124,12 +112,8 @@ def train_task2_method(method_name: str, root: str, device: str = "mps",
             loss, logs = method.compute_loss(backbone, source_batches, target_batch, progress_p)
 
             optimizer.zero_grad()
-            if is_dann and False:
-                disc_optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            if is_dann and False:
-                disc_optimizer.step()
             step += 1
             step_bar.set_postfix({k: f"{v:.4f}" if isinstance(v, float) else v for k, v in logs.items()})
 
@@ -203,7 +187,6 @@ if __name__ == "__main__":
         batch_target=cfg.get("batch_size_target", 24),
         seed=cfg.get("seed", SEED), out_dir=args.out_dir,
         lr=cfg.get("lr", 1e-4), weight_decay=cfg.get("weight_decay", 1e-4),
-        disc_lr=cfg.get("disc_lr"),
         method_kwargs=method_kwargs,
     )
     print(result["target_metrics"])
